@@ -1,0 +1,35 @@
+#Employees details
+
+emp:
+     details:
+        eno: 121
+        ename: BOTKE
+        esal: 900000
+#Array properties
+        fav-Color: 
+          - red
+          - blue
+          - cyan
+        fav-color: [red,red,red]
+#List  properties		  
+        nick-Names: 
+          - raju  
+          - rames 
+          - rahu
+        nickNames: [RAM,RAM,RAm]        # inline property havin higher priority
+#Set   properties	
+        mob:
+          - 999999999
+          - 888888888
+          - 777777777
+ #Map  properties	
+        idDetails: 
+          adhar: 1234
+          voter: 897
+          panid: 78945
+#HAS-A  properties	
+        project: 
+          id: 444
+          name: OpenVv
+          size: 55
+          location: HYD		

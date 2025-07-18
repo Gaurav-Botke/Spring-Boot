@@ -1,0 +1,12 @@
+#Project info
+
+proj:
+     info:
+      pid: 101
+      pname: OpenFx
+      plocation: PUNE
+      psize: 10
+
+# application.yml its part of Spring project echo system just like a application.properties so does not required explicitily confure
+# but we have  application.properties and  application.yml then alway application.properties override a application.yml file
+# i.e first priority gives to the application.properties 
